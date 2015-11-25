@@ -9,8 +9,8 @@ var commands = {
 		alert("Machines Don't Dream"); },
 	'The Heck': function() {
 		alert("Da Hek XD!?"); },
-	'Continue': function () {
-		window.open('http://16thompsonjc1.github.io/Test-Site-16thompsonjc1/Selection%20Screen.html')
+	'Continue': function redirect() {
+		window.location = 'http://16thompsonjc1.github.io/Test-Site-16thompsonjc1/Selection%20Screen.html'
 	}
 };
   
