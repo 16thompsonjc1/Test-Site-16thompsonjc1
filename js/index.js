@@ -10,7 +10,7 @@ var commands = {
 	'The Heck': function() {
 		alert("Da Hek XD!?"); },
 	'Continue': function redirect() {
-		window.location = 'http://16thompsonjc1.github.io/Test-Site-16thompsonjc1/Selection%20Screen.html'
+		window.location = 'Defalt Word Success Page'
 	}
 };
   
