@@ -22,7 +22,7 @@
 					<section id="banner">
 						<div class="inner">
 							<h3>Repeat after me!</h3>
-							<p>Lorem [Lo-rem]</p>
+							<p>Continue [con-tin-ue]</p>
 							<audio controls>
 								<source src="Test Audio File.wav" type="audio/wav">
 							</audio>
@@ -32,6 +32,21 @@
 							<ul class="actions">
 							<li><a href="Selection Screen.html" class="button special">Try a different word?</a></li>
 							</ul>
+							<script>
+							if (annyang) {
+	
+							var commands = {
+								'Continue': function redirect() {
+									window.location = 'Defalt Word Success Page'
+											}
+										};
+  
+							annyang.debug(true);
+								annyang.addCommands(commands);
+ 
+							annyang.start();
+							}
+							</script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>

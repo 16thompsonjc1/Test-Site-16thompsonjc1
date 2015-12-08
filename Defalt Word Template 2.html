@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Selection Hub</title>
+		<title>Defalt Word Template</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -14,26 +14,39 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body class="landing">
+	<body class="greenery">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
+							<h3>Repeat after me!</h3>
+							<p>Progress [Prog-ress]</p>
+							<audio controls>
+								<source src="Test Audio File.wav" type="audio/wav">
+							</audio>
+							<br />
+							<br />
+							<br />
 							<ul class="actions">
-								<h1><a href="Defalt Word Template.html" class="button big">"Word"</a>
-								<a href="Defalt Word Template.html" class="button big">"Word"</a></h1>
-								<h4><a href="Defalt Word Template.html" class="button big">"Word"</a>
-								<a href="Defalt Word Template.html" class="button big">"Word"</a></h4>
+							<li><a href="Selection Screen.html" class="button special">Try a different word?</a></li>
 							</ul>
-							<h2>Please Select Your Word For Today</h2>
-							<ul class="actions">
-								<h4><a href="Defalt Word Template 2.html" class="button big">"Word 2"</a>
-								<a href="Defalt Word Template 2.html" class="button big">"Word 2"</a></h4>
-								<h1><a href="Defalt Word Template 2.html" class="button big">"Word 2"</a>
-								<a href="Defalt Word Template 2.html" class="button big">"Word 2"</a></h1>
-							</ul>
+							<script>
+							if (annyang) {
+	
+							var commands = {
+								'Progress': function redirect() {
+									window.location = 'Defalt Word Success Page'
+											}
+										};
+  
+							annyang.debug(true);
+								annyang.addCommands(commands);
+ 
+							annyang.start();
+							}
+							</script>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -42,6 +55,9 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    		<script src="js/index.js"></script>
 
 	</body>
 </html>
