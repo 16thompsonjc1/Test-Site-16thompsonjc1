@@ -2,7 +2,7 @@ if (annyang) {
 	
 var commands = {
 	'Progress': function redirect() {
-		window.location = 'Defalt Word Success Page'
+		window.location = 'Defalt_Word_Success_Page'
 	}
 };
   
