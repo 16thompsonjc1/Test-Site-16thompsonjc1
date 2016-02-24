@@ -7,8 +7,7 @@ var commands = {
 };
 
 annyang.addCallback('resultNoMatch', function(phrases) {
-  alert('No command matched. Possible sentences said:');
-  console.log(Continue);
+  alert('Sorry, that was incorrectly/not clearly said. Please Say That Again.');
 });
 
 annyang.debug(true);
