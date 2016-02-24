@@ -7,7 +7,7 @@ var commands = {
 };
 
 annyang.addCallback('resultNoMatch', function(phrases) {
-  console.log('No command matched. Possible sentences said:');
+  alert('No command matched. Possible sentences said:');
   console.log(Continue);
 });
 
