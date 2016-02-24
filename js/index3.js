@@ -6,9 +6,8 @@ var commands = {
 	}
 };
 
-annyang.addCallback('resultNoMatch', function(){window.console.log('noMatch');});
-':nomatch': function (message) { onResultNoMatch(message); };
-  
+annyang.addCallback('resultNoMatch', alert("Sorry, that was incorrect/not clear. Please say that again."){window.console.log('noMatch');});
+
 annyang.debug(true);
 	annyang.addCommands(commands);
  
