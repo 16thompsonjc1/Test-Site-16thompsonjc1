@@ -6,7 +6,7 @@ var commands = {
 	}
 };
 
-annyang.addCallback('resultNoMatch', alert("Sorry, that was incorrect/not clear. Please say that again."){window.console.log('noMatch')}));
+annyang.addCallback('resultNoMatch', alert("Sorry, that was incorrect/not clear. Please say that again."));
 
 annyang.debug(true);
 	annyang.addCommands(commands);
