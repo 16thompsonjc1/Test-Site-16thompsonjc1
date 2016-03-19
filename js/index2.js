@@ -15,8 +15,3 @@ annyang.debug(true);
  
 annyang.start();
 }
-
-else {
-alert('Your browser does not support Speech Recognition! Please use Google Chrome!');
-}
- };
